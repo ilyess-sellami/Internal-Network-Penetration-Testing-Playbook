@@ -6,11 +6,9 @@ This repository provides a structured methodology for conducting authorized inte
 
 The goal is to understand how common network services are discovered, enumerated, assessed, and validated during internal penetration tests, while also documenting detection opportunities and security hardening recommendations.
 
-> **Important:** All testing activities described in this repository must be performed only on systems and networks for which explicit authorization has been obtained.
-
 ---
 
-## Repository Structure
+## Contents
 
 * [01. Network Discovery](01-Network-Discovery.md)
 * [02. Port and Service Enumeration](02-Port-and-Service-Enumeration.md)
