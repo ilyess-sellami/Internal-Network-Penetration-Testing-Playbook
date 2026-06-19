@@ -27,6 +27,5 @@ The goal is to understand how common network services are discovered, enumerated
 * 15-MySQL-Assessment.md
 * 16-PostgreSQL-Assessment.md
 * 17-Active-Directory-Enumeration.md
-* 18-Privilege-Escalation.md
-* 19-Lateral-Movement-Assessment.md
-* 20-Reporting-and-Remediation.md
+* 18-Lateral-Movement-Assessment.md
+* 19-Reporting-and-Remediation.md
