@@ -146,6 +146,7 @@ Common location of users lists and passwords lists (Kali linux):
 ```bash
 /usr/share/seclists/Usernames/
 /usr/share/seclists/Passwords/
+/usr/share/wordlists/
 ```
 
 Most famous passwords list:
