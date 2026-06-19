@@ -16,7 +16,7 @@ The goal is to understand how common network services are discovered, enumerated
 * [02. Port and Service Enumeration](02-Port-and-Service-Enumeration.md)
 * [03. FTP Assessment](03-FTP-Assessment.md)
 * [04. SMB Assessment](04-SMB-Assessment.md)
-* 05-SSH-Assessment.md
+* [05. SSH Assessment](05-SSH-Assessment.md)
 * 06-Telnet-Assessment.md
 * 07-DNS-Assessment.md
 * 08-SNMP-Assessment.md
