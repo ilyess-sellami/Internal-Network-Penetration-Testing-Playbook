@@ -164,10 +164,10 @@ Review assigned privileges for a specific user:
 
 Examples:
 
-* SUPERUSER
-* CREATEDB
-* CREATEROLE
-* LOGIN
+* ``SUPERUSER``
+* ``CREATEDB``
+* ``CREATEROLE``
+* ``LOGIN``
 
 Potential risks:
 
@@ -210,28 +210,6 @@ Assessment questions:
 * Are strong authentication methods used?
 * Are legacy authentication methods disabled?
 * Are privileged accounts protected?
-
----
-
-# Sensitive Data Review
-
-Databases frequently contain:
-
-* Customer information
-* Employee records
-* Financial data
-* Application credentials
-* API keys
-
-Examples:
-
-```text
-users
-customers
-employees
-payments
-credentials
-```
 
 ---
 
