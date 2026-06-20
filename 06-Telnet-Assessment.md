@@ -202,15 +202,3 @@ Identify Misconfigurations
             v
 Document Findings
 ```
-
----
-
-# Hardening Recommendations
-
-* Disable Telnet where possible
-* Replace Telnet with SSH
-* Restrict administrative access to management networks
-* Remove default credentials
-* Implement unique administrator accounts
-* Enable centralized logging and monitoring
-* Apply network segmentation
