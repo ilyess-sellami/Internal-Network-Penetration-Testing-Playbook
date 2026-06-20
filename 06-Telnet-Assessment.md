@@ -94,26 +94,6 @@ Assessment questions:
 
 ---
 
-# Authentication Review
-
-Review how users authenticate to the service.
-
-Assessment considerations:
-
-* Username/password authentication
-* Shared administrative accounts
-* Default credentials
-* Account lockout controls
-* Multi-factor authentication availability
-
-Questions:
-
-* Are unique administrator accounts used?
-* Are default credentials removed?
-* Are login attempts monitored?
-
----
-
 # User Access Review
 
 Identify users authorized to access the service.
@@ -166,6 +146,20 @@ Password incorrect
 
 ---
 
+# Brute-Forcing Telnet
+
+Brute-forcing a single user with a wordlist:
+
+```bash
+hydra -l [username] -P [path/to/password_list.txt] [target_ip] telnet
+```
+
+To attack a list of usernames against a list of passwords:
+
+```bash
+hydra -L [path/to/usernames_list.txt] -P [path/to/password_list.txt] -t 4 [target_ip] telnet
+```
+
 # Common Misconfigurations
 
 Look for:
@@ -200,7 +194,13 @@ Review Authentication Controls
 Identify Authorized Users
             |
             v
-
+Brute-Forcing Telnet
+            |
+            v
+Identify Misconfigurations
+            |
+            v
+Document Findings
 ```
 
 ---
