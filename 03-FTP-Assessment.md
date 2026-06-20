@@ -121,7 +121,7 @@ put test.txt
 
 ---
 
-# Brute Force FTP
+# Brute-Forcing FTP
 
 To attack a specific user against an FTP server:
 
@@ -132,7 +132,7 @@ hydra -l [username] -P [path/to/password_list.txt] ftp://[target_ip]
 To attack a list of usernames against a list of passwords:
 
 ```bash
-hydra -L [path/to/usernames_list.txt] -P [path/to/password_list.txt] ftp://[target_ip]
+hydra -L [path/to/usernames_list.txt] -P [path/to/password_list.txt] -t 4 ftp://[target_ip]
 ```
 
 use Nmap's built-in FTP brute script:
@@ -192,7 +192,7 @@ Test file download/upload
 Identify sensitive data exposure
         |
         v
-Try Brute Forcing FTP
+Brute-Forcing FTP
         |
         v
 Document misconfigurations
