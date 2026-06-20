@@ -177,6 +177,7 @@ Identify Sensitive Files
             v
 Review Permissions and ACLs
             |
+
             v
 Check SMB Security Settings
             |
