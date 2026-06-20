@@ -207,15 +207,3 @@ Identify Misconfigurations
         v
 Document Findings
 ```
-
----
-
-# Hardening Recommendations
-
-* Disable direct root login
-* Enforce MFA
-* Prefer key-based authentication
-* Remove inactive accounts
-* Review authorized_keys regularly
-* Restrict access by IP where possible
-* Keep OpenSSH updated
