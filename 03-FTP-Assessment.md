@@ -121,7 +121,7 @@ put test.txt
 
 ---
 
-# FTP Brute Force using Hydra
+# Brute Force FTP
 
 To attack a specific user against an FTP server:
 
