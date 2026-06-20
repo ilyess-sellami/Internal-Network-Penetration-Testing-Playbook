@@ -6,8 +6,6 @@ MySQL is one of the most widely used relational database management systems in w
 
 Because it often stores sensitive application data such as user accounts, credentials, financial records, and business logic, MySQL servers are high-value targets during internal security assessments.
 
-The objective of this assessment is to identify MySQL services, enumerate databases, review user privileges, assess authentication mechanisms, and detect misconfigurations that may lead to unauthorized access.
-
 ---
 
 ## Objectives
