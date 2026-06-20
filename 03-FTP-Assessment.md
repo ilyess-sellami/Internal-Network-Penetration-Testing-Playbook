@@ -197,14 +197,3 @@ Brute-Forcing FTP
         v
 Document misconfigurations
 ```
-
----
-
-# Hardening Recommendations
-
-* Disable anonymous FTP access
-* Enforce strong authentication
-* Restrict directory permissions
-* Disable write access where not needed
-* Use SFTP instead of FTP
-* Monitor file transfer logs
