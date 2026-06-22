@@ -1,4 +1,4 @@
-# 12. WinRM Assessment
+# 10. WinRM Assessment
 
 ## Overview
 
